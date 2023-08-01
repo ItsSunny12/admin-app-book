@@ -1,0 +1,80 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  margin: 0 auto;
+}
+.input {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid lightgrey;
+  border-radius: 0.5rem;
+  outline: none;
+}
+.button {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+.h2 {
+  text-align: center;
+  margin: 0.3rem;
+}
+.booksContainer {
+  overflow: hidden;
+  overflow-y: auto;
+  max-height: 20rem;
+  padding: 0.2rem;
+  width: 100%;
+}
+.container {
+  background-color: white;
+  width: 50rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.delete {
+  color: red;
+  cursor: pointer;
+}
+
+.df {
+  display: flex;
+}
+.p5 {
+  padding: 0.5rem;
+}
+.br5 {
+  border-radius: 0.5rem;
+}
+.mb5 {
+  margin-bottom: 0.5rem;
+}
+.mr5 {
+  margin-right: 0.5rem;
+}
+.shadow {
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.aic {
+  align-items: center;
+}
+.jcc {
+  justify-content: center;
+}
+.jcsb {
+  justify-content: space-between;
+}
+.jcsa {
+  justify-content: space-around;
+}
+.fdc {
+  flex-direction: column;
+}
+
+.cursorp {
+  cursor: pointer;
+}
